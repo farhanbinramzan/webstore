@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="contaibner">
+    <div class="header">
+      <div class="header-left w-15">
+        <div class="header_title">
+          <img src="./Screenshot 2023-11-21 132024.png" alt="">
+        </div>
+      </div>
+      <div class="header-right w-85 a-i">
+        <div class="header_manu w-85  ">
+          <ul>
+            <li><a href="" >  Products</a></li>
+            <li><a href=""  class="active">Colours</a></li>
+            <li><a href="">Prices</a></li>
+            <li><a href="">Catogries</a></li>
+            <li><a href="">Dashboard</a></li>
+          </ul>
+        </div>
+
+        <div class="user_wrappper w-15">
+          <span><i class="fa-solid fa-bell"></i></span>
+          <span><i class="fa-solid fa-gear"></i></span>
+
+          <div>
+            <h4>Farhan Rai</h4>
+
+          </div>
+          <img src="./cd74eccd-4b0d-48c6-aa9d-b4c21b659dc5.jpg" width="40px" height="40px" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="mane-section-warpper">
+      <div class="sidebar w-15">
+        <div class="d-flex">
+          <div class="w-50 ">
+            <h4>FILTER</h4>
+          </div>
+          <div class="w-50 t-a-e">
+            <h4><a href="">Collapse all</a></h4>
+          </div>
+        </div>
+        <div>
+          <input type="text" placeholder="Search..">
+        </div>
+        <div>
+          <button type="button" class="collapsible">Division<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+            <input type="checkbox" name="womans">
+            <label>Womans</label><br>
+            <input type="checkbox" name="mans">
+            <label>Mans</label><br>
+            <input type="checkbox" name="girls">
+            <label>Girls</label><br>
+            <input type="checkbox" name="boys">
+            <label>Boys</label><br>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="collapsible">Deparment<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+            <input type="checkbox" name="womans">
+            <label>Womans</label><br>
+            <input type="checkbox" name="mans">
+            <label>Mans</label><br>
+            <input type="checkbox" name="girls">
+            <label>Girls</label><br>
+            <input type="checkbox" name="boys">
+            <label>Boys</label><br>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="collapsible">Retallar<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+            <input type="checkbox" name="womans">
+            <label>Womans</label><br>
+            <input type="checkbox" name="mans">
+            <label>Mans</label><br>
+            <input type="checkbox" name="girls">
+            <label>Girls</label><br>
+            <input type="checkbox" name="boys">
+            <label>Boys</label><br>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="collapsible">Categery<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+            <input type="checkbox" name="womans">
+            <label>Womans</label><br>
+            <input type="checkbox" name="mans">
+            <label>Mans</label><br>
+            <input type="checkbox" name="girls">
+            <label>Girls</label><br>
+            <input type="checkbox" name="boys">
+            <label>Boys</label><br>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="collapsible">Brand<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+            <input type="checkbox" name="womans">
+            <label>Womans</label><br>
+            <input type="checkbox" name="mans">
+            <label>Mans</label><br>
+            <input type="checkbox" name="girls">
+            <label>Girls</label><br>
+            <input type="checkbox" name="boys">
+            <label>Boys</label><br>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="collapsible">Colour<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+
+            <input type="checkbox" name="orange">
+            <label><span class="color_picker orange"></span>Orange</label><br>
+
+            <input type="checkbox" name="green">
+            <label for=""><span class="color_picker green"></span>Green</label><br>
+
+            <input type="checkbox" name="yellow">
+            <label><span class="color_picker Yellow"></span>Yellow</label><br>
+
+            <input type="checkbox" name="white">
+            <label><span class="color_picker White"></span>White</label><br>
+
+            <input type="checkbox" name="Gray">
+            <label><span class="color_picker Gray"></span> Gray</label><br>
+
+            <input type="checkbox" name="purple">
+            <label><span class="color_picker Purple"></span>Purple</label><br>
+
+            <input type="checkbox" name="Pink">
+            <label><span class="color_picker Pink"></span>Pink</label><br>
+
+            <input type="checkbox" name="aqua">
+            <label><span class="color_picker Aqua"></span>Aqua</label><br>
+
+            <input type="checkbox" name="maroon">
+            <label><span class="color_picker Maroon"></span> Maroon</label><br>
+
+            <input type="checkbox" name="magenta">
+            <label><span class="color_picker Magenta"></span>Magenta</label><br>
+
+            <input type="checkbox" name="indigo">
+            <label><span class="color_picker Indigo"></span>Indigo</label><br>
+
+            <input type="checkbox" name="lime">
+            <label><span class="color_picker Lime"></span>Lime</label><br>
+
+            <input type="checkbox" name="coral">
+            <label><span class="color_picker Coral"></span>Coral</label><br>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="collapsible">Size<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+            <input type="checkbox" name="womans">
+            <label>Womans</label><br>
+            <input type="checkbox" name="mans">
+            <label>Mans</label><br>
+            <input type="checkbox" name="girls">
+            <label>Girls</label><br>
+            <input type="checkbox" name="boys">
+            <label>Boys</label><br>
+          </div>
+        </div>
+
+
+
+        <div>
+          <button type="button" class="collapsible">Price Range</button>
+          <div class="range-slide">
+
+            <div class="slide">
+
+              <div class="line" id="line" style="left: 0%; right: 0%;"></div>
+              <span class="thumb" id="thumbMin" style="left: 0%;"></span>
+              <span class="thumb" id="thumbMax" style="left: 100%;"></span>
+            </div>
+
+            <input id="rangeMin" type="range" max="100" min="10" step="5" value="0">
+            <input id="rangeMax" type="range" max="100" min="10" step="5" value="100">
+          </div>
+          <div class="display">
+            <h3> €<span id="min">10</span></h3>
+            <h3><span id="max"><span>€</span> 100</span></h3>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="collapsible">Cuntry<i class="fa-solid fa-chevron-down f-r"></i></button>
+          <div class="content">
+            <input type="checkbox" name="pakistan">
+            <label>Pakistan</label><br>
+            <input type="checkbox" name="canada">
+            <label>Canada</label><br>
+            <input type="checkbox" name="afghanistan">
+            <label>Afghanistan</label><br>
+            <input type="checkbox" name="china">
+            <label>China</label><br>
+            <input type="checkbox" name="iran">
+            <label>Iran</label>
+            <input type="checkbox" name="france">
+            <label>France</label>
+          </div>
+        </div>
+
+      </div>
+      <div class="mane-section w-85">
+        <div class="Product-found-warpper">
+          <div class="Product-found w-50">
+            <H3>586 PRODUCT FOUND</H3>
+          </div>
+          <div class="export-button w-50">
+            <button> Export data to excal</button>
+          </div>
+        </div>
+
+
+        <div class="onsale-warpper">
+          <div class="onsale-left w-50">
+            <ul>
+              <li><a href="">On sale</a></li>
+              <li><a href=""><i class="fa-solid fa-circle" style="color: #eef202; margin-right: 8px;"></i>New</a></li>
+              <li><a href=""><i class="fa-solid fa-circle-exclamation"
+                    style="color: #b6020b; margin-right: 8px;"></i>Cut of stock</a></li>
+              <li><a href=""><i class="fa-solid fa-ban" style="color: black; margin-right: 8px;"></i> Discored</a></li>
+            </ul>
+          </div>
+          <div class="short-right w-50">
+            <div class="w-50 d-flex ">
+              <h5>Short by:</h5>
+              <span>
+
+                <select class="select">
+                  <option value="1">Pure CSS Select</option>
+                  <option value="2">No JS</option>
+                  <option value="3">Nice!</option>
+                </select>
+
+              </span>
+            </div>
+            <div class="w-50 d-flex ">
+              <span>
+                <h5>View:</h5>
+              </span>
+              <span class="button">
+                <button class="btn"><i class="fa-brands fa-windows"></i></button>
+                <button class="btn1 "><i class="fa-solid fa-e "></i></button>
+              </span>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="product-warpper d-flex">
+          <div class="product ">
+            <img src="./Screen-Shot-2023-07-04-at-2.48.05-PM.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p>whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0">92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./713lMkLla1S._AC_UF894,1000_QL80_.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p>whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0">92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./20210331-Pro-specs-BX112-03.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p>whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./ea1a7519b45177339dae77cc2142a083.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p>whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./american-tourister-trot-laptop-backpack.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p>whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./images.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p>whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./1_858_17-1.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p>whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./images.jpeg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p class="">whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./download.jpeg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p class="">whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+          
+          <div class="product ">
+            <img src="./1685f9a7cc2cfc93cb689511c90b9a7d.jpg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p class="">whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+          
+          <div class="product ">
+            <img src="./images (3).jpeg" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p class="">whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="product ">
+            <img src="./category-short-sleeve-t-shirts.png" alt="">
+            <h3>lorem ipsum product</h3>
+            <div class="d-flex">
+              <div class="w-50">
+                <p class="">whisties</p>
+                <p>Pume</p>
+              </div>
+              <div class="w-50 col">
+                <h2 class="m-0"> €92.00</h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+<script>
+  let min = 10;
+  let max = 100;
+
+  const calcLeftPosition = (value) => (100 / (100 - 10)) * (value - 10);
+
+  $("#rangeMin").on("input", function (e) {
+    const newValue = parseInt(e.target.value);
+    if (newValue > max) return;
+    min = newValue;
+    $("#thumbMin").css("left", calcLeftPosition(newValue) + "%");
+    $("#min").html(newValue);
+    $("#line").css({
+      left: calcLeftPosition(newValue) + "%",
+      right: 100 - calcLeftPosition(max) + "%"
+    });
+  });
+
+  $("#rangeMax").on("input", function (e) {
+    const newValue = parseInt(e.target.value);
+    if (newValue < min) return;
+    max = newValue;
+    $("#thumbMax").css("left", calcLeftPosition(newValue) + "%");
+    $("#max").html(newValue);
+    $("#line").css({
+      left: calcLeftPosition(min) + "%",
+      right: 100 - calcLeftPosition(newValue) + "%"
+    });
+  });
+</script>
+
+</html>
